@@ -7,6 +7,7 @@ var WRITING_PROMPT = [
     "Movies",
     "Memories",
     "Your favorite toy",
+    "What did you do on the weekend",
     "What you were last Halloween"
 ]
 
