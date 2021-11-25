@@ -1,14 +1,22 @@
 console.log("This is my program");
-/*WRITING_PROMPT*/
+/*WRITING_PROMPT
+- do not repeat previous number
+- make it HTML responsive
+*/
 
 var WRITING_PROMPT = [
-    "Space",
-    "Dinosaurs",
-    "Movies",
-    "Memories",
-    "Your favorite toy",
-    "What did you do on the weekend",
-    "What you were last Halloween"
+    "Space.",
+    "Dinosaurs.",
+    "Movies.",
+    "Memories.",
+    "Your favorite toy.",
+    "What did you do on the weekend.",
+    "What you got for Christmas last year.",
+    "Favarite food.",
+    "Favorite animal.",
+    "Favorite video game.",
+    "Favorite sport.",
+    "What you were last Halloween."
 ]
 
 function newWritingPrompt() {
