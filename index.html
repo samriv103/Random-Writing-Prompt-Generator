@@ -15,12 +15,25 @@ body {
       <div id="writingPromptDisplay" style="font-size:20px;">
           <!-- Quotes will display here -->
       </div>
-      <button onclick="newWritingPrompt()" name="holder" id="btn" value="New Prompt">New Prompt</button>
+      <button onclick="newWritingPrompt()" name="holder" id="btn" value="New Prompt" >New Prompt</button>
       <div><p><i>by Samuel R.</i></p></div>
+      <script>
+        function TestsFunction() {
+        var T = document.getElementById("disqus_thread");
+        T.style.display = "block";  // <-- Set it to block
+        }
+      </script>
+<button onclick="TestsFunction()">Leave Suggestions</button>
+<div><p><i>The comment section is for PROMPT SUGGESTIONS ONLY! If you send anything else your comment will be deleted, if you send curse words YOU WILL BE BANNED!
+
+</i></p></div>
       
-      <div id="disqus_thread"></div>
-    <script src="disqus.js"></script>
+      <div id="disqus_thread" style="display:none">   
+          <script src="disqus.js"></script>
+      </div>
+
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
+      
+      
   </body>
 </html>
